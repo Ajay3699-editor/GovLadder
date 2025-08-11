@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raviteja Consultancy - India's #1 for Government Jobs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="splash-screen">
+        <div class="splash-overlay"></div>
+        <div class="splash-content">
+            <img src="images/logo.png" alt="Raviteja Consultancy Logo" class="splash-logo">
+            <h1>Raviteja Consultancy</h1>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <header>
+            <div class="container">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Raviteja Consultancy Logo" class="header-logo">
+                    <span>Raviteja Consultancy</span>
+                </div>
+                <nav>
+                    <a href="#hero">Home</a>
+                    <a href="#about">Why We're #1</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content container">
+                <h2>India's #1 Platform for Government Job Success</h2>
+                <p>Join thousands of toppers who chose Raviteja Consultancy to secure their future in the nation's most prestigious services.</p>
+                <a href="#courses" class="cta-button">Begin Your Success Story</a>
+            </div>
+        </section>
+
+        <section id="stats" class="container">
+            <div class="stat-item">
+                <div class="stat-number" data-target="8500">0</div>
+                <div class="stat-label">Successful Aspirants</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="98">0</div>
+                <div class="stat-label">% Success Rate</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">+ Elite Mentors</div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="section-title">Why We Are #1 in India</h2>
+            <div class="features-grid">
+                <div class="feature-item"><h3>India's Top Mentors</h3><p>Learn from a league of extraordinary educators, celebrated across the nation for creating rank-holders.</p></div>
+                <div class="feature-item"><h3>The Ultimate Curriculum</h3><p>Our proprietary, AI-driven study material is the most advanced and effective curriculum in the country.</p></div>
+                <div class="feature-item"><h3>Precision Test Series</h3><p>Dominate the competition with our hyper-realistic mock tests, engineered for the highest accuracy.</p></div>
+                <div class="feature-item"><h3>The Unbeatable Guarantee</h3><p>Our confidence is our bond. We offer India's only performance-backed job guarantee for dedicated aspirants.</p></div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <div class="container">
+                <h2 class="section-title">Our Elite Course Offerings</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <div class="card-image"><img src="images/after_12th.png" alt="Foundation Course" onerror="this.onerror=null;this.src='https://placehold.co/600x400/a2d2ff/ffffff?text=Foundation';"></div>
+                        <div class="course-content">
+                            <h3>Foundation Launchpad (12th Pass)</h3>
+                            <p>The definitive first step for young aspirants aiming to build a dominant career foundation.</p>
+                            <ul><li>SSC-CHSL, SSC-MTS</li><li>RRB Exams</li><li>Defence/Police, NDA</li></ul>
+                            <button class="course-button" data-course="Foundation Launchpad (12th Pass)" data-price="15,000">Pre-book Your Seat</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="card-image"><img src="images/after_graduation.png" alt="Graduate Course" onerror="this.onerror=null;this.src='httpso/600x400/bde0fe/ffffff?text=Graduate';"></div>
+                        <div class="course-content">
+                            <h3>Graduate Flagship Program</h3>
+                            <p>India's most sought-after program for graduates targeting high-prestige government roles.</p>
+                            <ul><li>UPSC CSE, SSC-CGL</li><li>IBPS/SBI PO/Clerk, RBI Grade B</li><li>ISRO, GATE, NABARD, LIC</li></ul>
+                            <button class="course-button" data-course="Graduate Flagship Program" data-price="25,000">Pre-book Your Seat</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="card-image"><img src="images/specialized_exams.png" alt="Expert Course" onerror="this.onerror=null;this.src='https://placehold.co/600x400/ffafcc/ffffff?text=Expert';"></div>
+                        <div class="course-content">
+                            <h3>Expert Tier Command</h3>
+                            <p>An exclusive, high-intensity program for specialized technical and research positions.</p>
+                            <ul><li>CET (by NRA)</li><li>Engineering Services Exam (ESE)</li><li>Teaching/Research Exams</li></ul>
+                            <button class="course-button" data-course="Expert Tier Command" data-price="30,000">Pre-book Your Seat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="container">
+            <h2 class="section-title">Our Mission: To Set the Benchmark</h2>
+            <p>While some consultancies measure success by past numbers, we measure it by future potential—yours. This chart represents the old standard. Our mission is to not just top this chart, but to create a new benchmark for excellence in India.</p>
+            <div class="graph-container">
+                <canvas id="comparisonChart"></canvas>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Connect With India's Best</h2>
+                <p class="contact-subtitle">Your journey to the top starts here. Reach out to our expert admissions counselors today.</p>
+                <form action="https://formspree.io/f/mzzgonea" method="POST" class="contact-form">
+                    <div class="form-group"><input type="text" name="name" placeholder="Your Name" required><input type="email" name="email" placeholder="Your Email" required></div>
+                    <div class="form-group"><input type="text" name="subject" placeholder="Subject" required></div>
+                    <div class="form-group"><textarea name="message" placeholder="Your Message" required></textarea></div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Raviteja Consultancy. India's Premier Destination for Government Job Aspirants.</p>
+                <p>Tirupati, Andhra Pradesh, India | <a href="mailto:contact@ravitejaconsultancy.com">contact@ravitejaconsultancy.com</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="booking-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn">&times;</button>
+            
+            <div id="prebook-step">
+                <h2 id="modal-course-title">Pre-book Your Seat</h2>
+                <p>Fill in your details to reserve your spot in the upcoming batch.</p>
+                <form id="prebook-form">
+                    <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
+                    <div class="form-group"><input type="email" name="email" placeholder="Email Address" required></div>
+                    <div class="form-group"><input type="tel" name="phone" placeholder="Phone Number" required></div>
+                    <button type="submit" class="cta-button">Proceed to Payment</button>
+                </form>
+            </div>
+
+            <div id="payment-step" class="hidden">
+                <h2>Complete Your Enrollment</h2>
+                <div class="price-display">
+                    <span>Total Amount:</span>
+                    <strong id="modal-course-price">₹0</strong>
+                </div>
+                <p>Scan the QR code or use the UPI ID below with any payment app.</p>
+                <div class="payment-details">
+                    <img src="images/QR.jpg" alt="QR Code for Payment" class="qr-code">
+                    <div class="upi-id">
+                        <strong>UPI ID:</strong> raviteja.consultancy@upi
+                        <button id="copy-upi-btn">Copy</button>
+                    </div>
+                </div>
+                <div class="payment-apps">
+                    <img src="images/QR.jpg" alt="Google Pay">
+                    <img src="images/QR.jpg" alt="PhonePe">
+                    <img src="images/QR.jpg" alt="Paytm">
+                    <img src="images/QR.jpg" alt="Amazon Pay">
+                </div>
+                <button id="back-to-form-btn" class="back-button">Go Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
