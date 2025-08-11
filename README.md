@@ -1,14 +1,14 @@
 ## Demo
 
-### Live Demo GIF
+### interface animation
 
 ![interface animation](images/demo.gif)
 
-### Full Screenshot
+### project overview
 
 ![project overview](images/demo.png)
 
-### Demo Screenshot
+### Pre enroll form
 
 ![Pre enroll form](images/1.png)
 ![payment QR code](images/2.png)
